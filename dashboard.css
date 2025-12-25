@@ -27,14 +27,6 @@ body{
     z-index: 2;
 }
 
-.header {
-    height: 70px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0px 15px black;
-    z-index: 1
-}
-
 .content {
     height: 100%;
     width: 100%;
@@ -77,4 +69,34 @@ ul li::before{
 hr {
     border: 1px solid rgb(92, 92, 92);
     margin-bottom: 22px;
+}
+
+
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0px 15px black;
+    display: flex;
+    z-index: 1
+}
+
+.menu-container{
+    display: flex;
+    align-items:center;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.menu{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 7px 15px;
+}
+
+.menu:hover {
+    background-color: black;
+    color: white;
 }
