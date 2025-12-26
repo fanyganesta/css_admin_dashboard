@@ -25,12 +25,14 @@ body{
     display: flex;
     flex-direction: column;
     z-index: 2;
+    flex: 1;
 }
 
 .content {
     height: 100%;
     width: 100%;
     background-color: rgb(255, 255, 255);
+    overflow-y: auto;
 }
 
 .sidebar h1{
@@ -43,8 +45,9 @@ ul{
     list-style: none
 }
 
-ul a{
+ul li a{
     text-decoration: none;
+    color: rgb(198, 198, 198);
 }
 
 li {
@@ -52,11 +55,11 @@ li {
     color: rgb(216, 216, 216);
 }
 
-li:hover{
+li a:hover{
     color: white;
 }
 
-ul li::before{
+ul .list-icon{
     content: '';
     display: inline-block;
     width: 16px;
