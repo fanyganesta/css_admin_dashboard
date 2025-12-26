@@ -42,7 +42,8 @@ body{
 
 ul{
     text-align: left;
-    list-style: none
+    list-style: none;
+    margin-bottom: 30px;
 }
 
 ul li a{
@@ -124,4 +125,15 @@ hr {
 
     background-color: green;
     color: white
+}
+
+h4{
+    text-align: left;
+    color: rgb(119, 119, 119);
+    text-transform: uppercase;
+    font-weight:400;
+}
+
+.nav-container{
+    padding-left: 30px;
 }
