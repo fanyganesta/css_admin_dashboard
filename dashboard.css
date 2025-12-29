@@ -209,3 +209,35 @@ h4{
     font-size: 16px;
 }
 
+.card-resume{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border-radius: 7px;
+    column-gap: 10px;
+    margin: 10px 0;
+}
+
+.card-resume-items{
+    padding: 0 10px;
+    flex: 1;
+    border-radius: 7px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+    color: black
+}
+
+.red{
+    background-color: red;
+}
+
