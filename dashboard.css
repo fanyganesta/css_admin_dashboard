@@ -99,6 +99,7 @@ hr {
 
 .menu{
     text-decoration: none;
+    color: black;
     border: 1px solid black;
     border-radius: 4px;
     padding: 7px 15px;
@@ -149,11 +150,11 @@ h4{
 }
 
 .card-header{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(193, 193, 193);
 }
 
 .card-body{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(193, 193, 193);
     padding: 20px 0;
 }
 
@@ -174,3 +175,37 @@ h4{
     text-align: center;
     padding: 10px;
 }
+
+.btn-primary{
+    padding: 7px 15px;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover{
+    background-color: black;
+}
+
+.vhr{
+    border-left: 1px solid black;
+    height: 100%;
+    margin: 0 5px;
+}
+
+.header input{
+    padding: 5px;
+    border: 1px solid rgb(138, 136, 136);
+    border-radius: 4px;
+}
+
+.header button{
+    padding: 5px 15px;
+    border-radius: 3px;
+    border: 0px solid rgb(145, 144, 144);
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+
